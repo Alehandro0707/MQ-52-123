@@ -959,7 +959,7 @@ textarea.field:focus {
       .menu__btn {
         display: none;
         align-items: center;
-        position: fixed;
+        position: absolute;
         top: 30px;
         right: 50px;
       
@@ -979,7 +979,7 @@ textarea.field:focus {
         width: 100%;
         height: 2px;
       
-        background-color: #000000;
+        background-color: #ffffff;
       
         transition-duration: .25s;
       }
@@ -1005,8 +1005,8 @@ textarea.field:focus {
       
         list-style: none;
       
-        background-color: #000000;
-        box-shadow: 1px 0px 6px rgba(0, 0, 0, 0);
+        background-color: #ffffff;
+        box-shadow: 1px 0px 6px rgb(255, 255, 255);
       
         transition-duration: .25s;
       }
@@ -1072,6 +1072,9 @@ textarea.field:focus {
     .nav-container {
         display: none;
     }
+    .logo-link-mobile {
+        display: none;
+    }
 }
 
 /* Tablet */
@@ -1084,6 +1087,9 @@ textarea.field:focus {
         width: 158px;
         margin-left: 0;
     }
+    .logo-link-mobile {
+        display: none;
+    }
     .full-nav {
         display: none;
     }
@@ -1093,6 +1099,7 @@ textarea.field:focus {
     .header-title {
         font-size: 40px;
         line-height: 55px;
+        max-width: 626px;
     }
     .trend-section-container {
         margin-top: 45px;
@@ -1279,6 +1286,10 @@ textarea.field:focus {
     .logo {
         margin: 175px 0 28px 0;
     }
+    .logo-container {
+        display: none;
+    }
+
     .header-content {
         background-image: url("../images/banner-mobile.jpg");
         background-size: cover;
@@ -1291,6 +1302,7 @@ textarea.field:focus {
     .header-title {
         font-size: 26px;
         line-height: 1.4;
+        max-width: 286px;
     }
     .trend-section-container {
         margin-top: 40px;
